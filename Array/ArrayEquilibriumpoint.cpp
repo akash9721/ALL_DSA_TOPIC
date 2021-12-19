@@ -21,7 +21,7 @@ int eqpoint(int a[],int n)
 int main()
 {
     int a[]={3,4,8,-9,20,6};
-    int n=sizeof(a)/sizeof(a[0]);
+    int n=sizeof(a)/sizeof(a[0]); //size of array element
     if(eqpoint(a,n))
         cout<<"true";
     else
